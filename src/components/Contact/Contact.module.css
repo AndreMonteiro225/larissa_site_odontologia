@@ -1,0 +1,124 @@
+.section {
+  padding: 5rem 0;
+  background-color: var(--secondary);
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+.infoSide {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  margin-bottom: 2.5rem;
+  color: #cbd5e1;
+  font-size: 1.1rem;
+}
+
+.infoItem {
+  display: flex;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.iconWrapper {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.infoTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.infoText {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+}
+
+.formCard {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 1.25rem;
+  color: var(--text-main);
+}
+
+.formTitle {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: var(--secondary);
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+.formGroup {
+  margin-bottom: 1.25rem;
+}
+
+.formGroup label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background: var(--bg-light);
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 1rem;
+  background: var(--primary-dark);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submitBtn:hover {
+  background: var(--secondary);
+}
+
+@media(min-width: 768px) {
+  .formRow { grid-template-columns: 1fr 1fr; }
+}
+
+@media(min-width: 1024px) {
+  .grid { grid-template-columns: 1fr 1fr; align-items: center; }
+}
