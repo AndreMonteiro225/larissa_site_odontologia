@@ -32,25 +32,25 @@ export const SERVICES = [
     id: 1,
     title: "Clareamento Dental",
     description: "Técnicas modernas a laser ou caseiras para devolver o brilho natural dos seus dentes.",
-    icon: <Smile size={32} />
+    icon: Smile // Armazenamos a referência do componente, não o JSX <Smile />
   },
   {
     id: 2,
     title: "Ortodontia Invisível",
     description: "Alinhadores transparentes que corrigem seu sorriso de forma discreta e rápida.",
-    icon: <Activity size={32} />
+    icon: Activity
   },
   {
     id: 3,
     title: "Implantes Dentários",
     description: "Reabilitação oral completa com materiais de titânio e porcelana de última geração.",
-    icon: <Award size={32} />
+    icon: Award
   },
   {
     id: 4,
     title: "Harmonização Orofacial",
     description: "Procedimentos estéticos funcionais para equilibrar os traços do rosto e o sorriso.",
-    icon: <CalendarCheck size={32} />
+    icon: CalendarCheck
   }
 ];
 

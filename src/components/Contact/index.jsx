@@ -37,30 +37,6 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className={styles.formCard}>
-          <h4 className={styles.formTitle}>Envie uma mensagem</h4>
-          <form onSubmit={(e) => e.preventDefault()}>
-            <div className={styles.formRow}>
-              <div className={styles.formGroup}>
-                <label>Nome</label>
-                <input type="text" placeholder="Seu nome" />
-              </div>
-              <div className={styles.formGroup}>
-                <label>Telefone</label>
-                <input type="tel" placeholder="(11) 99999-9999" />
-              </div>
-            </div>
-            <div className={styles.formGroup}>
-              <label>E-mail</label>
-              <input type="email" placeholder="seu@email.com" />
-            </div>
-            <div className={styles.formGroup}>
-              <label>Mensagem</label>
-              <textarea rows="4" placeholder="Como podemos ajudar?"></textarea>
-            </div>
-            <button className={styles.submitBtn}>Enviar Solicitação</button>
-          </form>
-        </div>
       </div>
     </section>
   );
