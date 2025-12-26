@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 4rem;
+  margin-bottom: 4rem;
 }
 
 .infoSide {
@@ -50,9 +51,15 @@
   font-size: 0.95rem;
 }
 
-
-
+.map {
+  width: 100%;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 @media(min-width: 1024px) {
-  .grid { grid-template-columns: 1fr 1fr; align-items: center; }
+  .grid { grid-template-columns: 1fr; } /* Alterado para 1 coluna já que removemos o form */
+  .infoSide { max-width: 800px; margin: 0 auto; text-align: center; align-items: center; } /* Centralizando */
+  .infoItem { text-align: left; }
 }

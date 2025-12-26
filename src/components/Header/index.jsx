@@ -18,7 +18,7 @@ export default function Header() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
       <div className={`container ${styles.navContainer}`}>
         <div className={styles.logo}>
-          Dra. Ana<span>Silva</span>
+          Dra. Larissa<span>Vilanova</span>
         </div>
 
         <nav className={styles.desktopNav}>
