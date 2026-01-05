@@ -26,7 +26,7 @@ export default function Contact() {
             <div>
               <h4 className={styles.infoTitle}>Endereço</h4>
               <p className={styles.infoText}>
-                Av. Paulista, 1000 - Conj 501, São Paulo - SP
+                Perdizes, ??? - ???, São Paulo - SP
               </p>
             </div>
           </div>
